@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+class number_pattern
+{
+public static void main(String args[])
+{
+int i,j,n,count;
+Scanner sc=new Scanner(System.in);
+System.out.print("enter the range:");
+n=sc.nextInt();
+for(i=0;i<n;i++)
+{
+count=1;
+for(j=0;j<=i;j++)
+{
+System.out.print(count+ " ");
+count++;
+}
+System.out.println();
+}
+}
+}
+
+OUTPUT:
+enter min range:5
+1
+1 2 
+1 2 3 
+1 2 3 4
+1 2 3 4 5
