@@ -10,9 +10,7 @@ System.out.print("enter min range:");
 a=sc.nextInt();
 System.out.print("enter max range:");
 b=sc.nextInt();
-System.out.print("prime numbers between "+a +" and "+b +" are 
-
-:");
+System.out.print("prime numbers between "+a +" and "+b +" are:"); 
 for(i=a;i<=b;i++)
 {
 count=0;
