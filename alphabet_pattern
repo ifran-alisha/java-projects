@@ -5,6 +5,7 @@ class alphabet_pattern
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
+System.out.print("enter range");
 int n;
 n=sc.nextInt();
 int size=n*2-1;
